@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  POSTGRES_HOST: "host"
+  POSTGRES_DB: "postgres"
+  AWS_REGION: "us-east-1"
+  AWS_BUCKET: "bucket"
+  AWS_PROFILE: "default"
+  URL: "public-url"
