@@ -22,7 +22,7 @@ spec:
         - containerPort: 8080
         envFrom:
         - configMapRef:
-            name: udagram-config
+            name: env-config
         - secretRef:
             name: env-secret
         volumeMounts:
